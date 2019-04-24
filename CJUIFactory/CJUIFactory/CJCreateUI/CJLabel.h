@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJLabel : UILabel
 
-+ (CJLabel *)init;
++ (CJLabel *)labInit;
 
 - (CJLabel *(^)(CGRect frame))labFrame;
 

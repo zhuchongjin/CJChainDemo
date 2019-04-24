@@ -18,7 +18,7 @@
 
  @return <#return value description#>
  */
-+ (CJLabel *)init{
++ (CJLabel *)labInit{
     
     CJLabel *cjLabel = [[CJLabel alloc] init];
     

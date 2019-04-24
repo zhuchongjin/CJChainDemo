@@ -34,7 +34,7 @@ typedef NS_ENUM(NSUInteger, CJImageAlignment) {
 
 @interface CJButton : UIButton
 
-+ (CJButton *)init;
++ (CJButton *)btnInit;
 
 - (CJButton *(^)(CGRect frame))btnFrame;
 

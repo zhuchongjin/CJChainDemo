@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CJView : UIView
-+ (CJView *)init;
++ (CJView *)viewInit;
 
 // 设置frame
 - (CJView *(^)(CGRect frame))viewFrame;

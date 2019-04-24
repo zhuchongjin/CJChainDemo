@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CJImageView : UIImageView
 
-+ (CJImageView *)init;
++ (CJImageView *)imgInit;
 
 - (CJImageView *(^)(CGRect frame))imgVFrame;
 

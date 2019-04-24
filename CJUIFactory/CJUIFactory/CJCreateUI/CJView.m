@@ -11,7 +11,7 @@
 @implementation CJView
 
 
-+ (CJView *)init {
++ (CJView *)viewInit {
     
     CJView *view = [[CJView alloc] init];
     view.clipsToBounds = YES;

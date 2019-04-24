@@ -10,7 +10,7 @@
 
 @implementation CJTextField
 
-+ (CJTextField *)init{
++ (CJTextField *)tfInit{
     CJTextField *field = [[CJTextField alloc]init];
     field.clearButtonMode = UITextFieldViewModeWhileEditing;
     field.borderStyle = UITextBorderStyleRoundedRect;

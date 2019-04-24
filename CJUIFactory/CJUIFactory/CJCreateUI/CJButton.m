@@ -15,7 +15,7 @@
 
 @implementation CJButton
 
-+ (CJButton *)init{
++ (CJButton *)btnInit{
     
     CJButton *btn = [CJButton buttonWithType:UIButtonTypeCustom];
     btn.clipsToBounds = YES;

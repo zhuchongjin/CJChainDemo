@@ -25,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.lab = CJLabel.init
+    self.lab = CJLabel.labInit
     .labFrame(CGRectMake(20, 100, 100, 100))
     .labBorderColor([UIColor redColor])
     .labBorderWidth(0.3)
@@ -39,7 +39,7 @@
     .labFont([UIFont cjTitleFontX:16]);
     [self.view addSubview:self.lab];
     
-    self.btn = CJButton.init
+    self.btn = CJButton.btnInit
     .btnFrame(CGRectMake(self.lab.right + 10, self.lab.top, 100, 100))
     .btnBgColor([UIColor cjRandomColor])
     .btnText(@"按钮")
@@ -55,7 +55,7 @@
 
     [self.view addSubview:self.btn];
     
-    self.feild = CJTextField.init
+    self.feild = CJTextField.tfInit
     .tfFrame(CGRectMake(self.lab.left, self.btn.bottom + 30, 150, 40))
     .tfplaceholderColorAndFont([UIColor redColor],[UIFont systemFontOfSize:12])
     .tfTextColor([UIColor blueColor])
@@ -69,7 +69,7 @@
     
     [self.feild setHeight:100];
     
-    self.imgV = CJImageView.init
+    self.imgV = CJImageView.imgInit
     .imgVFrame(CGRectMake(200, 250, 100, 100))
     .imgVImageName(@"my6")
     .imgVContentMode(UIViewContentModeCenter)
@@ -79,7 +79,7 @@
 //    self.imgV.layer.cornerRadius = 5;
     [self.view addSubview:self.imgV];
     
-    self.cjView = CJView.init
+    self.cjView = CJView.viewInit
     .viewFrame(CGRectMake(100, 300, 50, 50))
     .viewbgColor([UIColor lightGrayColor])
     .viewBorderWidthColor(3,[UIColor redColor]);

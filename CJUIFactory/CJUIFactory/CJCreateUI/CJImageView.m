@@ -10,7 +10,7 @@
 
 @implementation CJImageView
 
-+ (CJImageView *)init {
++ (CJImageView *)imgInit {
     
     CJImageView *imgView = [[CJImageView alloc] initWithFrame:CGRectZero];
 
